@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { DebounceCallbackExample } from './components/debounce-callback-example';
+import { HocExample } from './components/hoc-example/hoc-example';
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       </h1>
       {/* <ExampleOfUseFetch /> */}
       {/* <MemoExample /> */}
-      <DebounceCallbackExample />
+      {/* <DebounceCallbackExample /> */}
+      <HocExample />
     </>
   );
 }
