@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-// import { ExampleOfUseFetch } from './components/example-of-use-fetch';
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
         Hello world!
       </h1>
       {/* <ExampleOfUseFetch /> */}
+      {/* <MemoExample /> */}
     </>
   );
 }
