@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import { HocExample } from './components/hoc-example/hoc-example';
 
 function App() {
   return (
@@ -10,7 +9,8 @@ function App() {
       {/* <ExampleOfUseFetch /> */}
       {/* <MemoExample /> */}
       {/* <DebounceCallbackExample /> */}
-      <HocExample />
+      {/* <HocExample /> */}
+      {/* <StopWatch /> */}
     </>
   );
 }
