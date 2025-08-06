@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 export const StopWatch = () => {
-  const timerId = useRef<number | number>(null);
+  const timerId = useRef<number | null>(null);
   const [time, setTime] = useState(0);
 
   const play = () => {
