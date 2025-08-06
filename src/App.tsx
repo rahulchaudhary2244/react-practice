@@ -12,6 +12,7 @@ function App() {
       {/* <HocExample /> */}
       {/* <StopWatch /> */}
       {/* <LazyLoadingDemo /> */}
+      {/* <ContextProvider /> */}
     </>
   );
 }
