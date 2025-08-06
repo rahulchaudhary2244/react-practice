@@ -11,6 +11,7 @@ function App() {
       {/* <DebounceCallbackExample /> */}
       {/* <HocExample /> */}
       {/* <StopWatch /> */}
+      {/* <LazyLoadingDemo /> */}
     </>
   );
 }
