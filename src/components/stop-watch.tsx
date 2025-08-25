@@ -11,12 +11,12 @@ export const StopWatch = () => {
   };
 
   const pause = () => {
-    if (timerId.current) clearTimeout(timerId.current);
+    if (timerId.current) clearInterval(timerId.current);
     timerId.current = null;
   };
 
   const reset = () => {
-    if (timerId.current) clearTimeout(timerId.current);
+    if (timerId.current) clearInterval(timerId.current);
     timerId.current = null;
     setTime(0);
   };
